@@ -1,22 +1,18 @@
-📘 sicad (Sistem Catat Data Informatika)
+﻿#📘 sicad (Sistem Catat Data Informatika)
 
-sicad adalah aplikasi berbasis web untuk Sistem Pengelolaan Nilai Mahasiswa yang memungkinkan dosen mengelola nilai akademik dan mahasiswa melihat hasil studinya secara terstruktur.
+SiCAD adalah aplikasi berbasis web untuk Sistem Pengelolaan Nilai Mahasiswa yang memungkinkan dosen mengelola nilai akademik dan mahasiswa melihat hasil studinya secara terstruktur.
 Aplikasi ini dibangun sebagai project CRUD Backend & Frontend dengan autentikasi login menggunakan cookies.
 
-🚀 Fitur Utama
-🔐 Autentikasi & Autorisasi
+## 🚀 Fitur Utama
+* **🔐 Autentikasi & Autorisasi**
 
 Login menggunakan cookies
-
 Role pengguna:
+*Admin
+*Dosen
+*Mahasiswa
 
-Admin
-
-Dosen
-
-Mahasiswa
-
-📚 Manajemen Akademik (CRUD)
+# 📚 Manajemen Akademik (CRUD)
 
 Users (admin, dosen, mahasiswa)
 
@@ -26,7 +22,7 @@ Assignments (tugas, UTS, UAS)
 
 Grades (nilai mahasiswa)
 
-📊 Pengelolaan Nilai
+# 📊 Pengelolaan Nilai
 
 Dosen dapat:
 
@@ -40,7 +36,7 @@ Melihat nilai per mata kuliah
 
 Mengakses kartu hasil studi (KHS)
 
-📁 Export Data
+# 📁 Export Data
 
 Excel (.xlsx)
 
@@ -50,7 +46,7 @@ PDF (.pdf)
 
 Kartu Hasil Studi (KHS) mahasiswa
 
-🧩 Struktur Data Utama
+# 🧩 Struktur Data Utama
 
 Users
 
@@ -94,7 +90,7 @@ assignment_id
 
 score
 
-🛠️ Teknologi yang Digunakan
+# 🛠️ Teknologi yang Digunakan
 
 (Sesuaikan dengan stack yang kamu pakai)
 
@@ -122,48 +118,16 @@ Excel: xlsx / exceljs
 
 PDF: pdfkit / dompdf
 
-🔄 Alur Sistem
+# 🔄 Alur Sistem
 
-User login → session disimpan di cookies
+* **User login → session disimpan di cookies**
 
-Sistem mengecek role user
+* **Sistem mengecek role user**
 
-Dosen mengelola nilai mahasiswa
+* **Dosen mengelola nilai mahasiswa**
 
 Mahasiswa melihat nilai & KHS
 
 Admin mengelola data master
 
 Data dapat diexport ke Excel & PDF
-
-🎯 Tujuan Project
-
-Project ini dibuat untuk memenuhi Progress UAS dengan ketentuan:
-
-✅ Backend & Frontend
-
-✅ Login Auth menggunakan Cookies
-
-✅ CRUD Data
-
-✅ Export Excel & PDF
-
-✅ Topik Sistem Akademik
-
-📌 Catatan
-
-Project ini bersifat akademik dan dapat dikembangkan lebih lanjut dengan fitur:
-
-Grafik nilai
-
-IPK otomatis
-
-Approval nilai
-
-Notifikasi
-
-👨‍💻 Author
-
-Nama: [Isi Nama Kamu]
-Program Studi: Informatika
-Universitas: [Isi Nama Kampus]
