@@ -1,4 +1,4 @@
-﻿#📘 sicad (Sistem Catat Data Informatika)
+## 📘 SiCAD (Sistem Catat Data Informatika)
 
 SiCAD adalah aplikasi berbasis web untuk Sistem Pengelolaan Nilai Mahasiswa yang memungkinkan dosen mengelola nilai akademik dan mahasiswa melihat hasil studinya secara terstruktur.
 Aplikasi ini dibangun sebagai project CRUD Backend & Frontend dengan autentikasi login menggunakan cookies.
@@ -6,7 +6,7 @@ Aplikasi ini dibangun sebagai project CRUD Backend & Frontend dengan autentikasi
 ## 🚀 Fitur Utama
 * **🔐 Autentikasi & Autorisasi**
 
-Login menggunakan cookies
+* **Login menggunakan cookies**
 Role pengguna:
 *Admin
 *Dosen
@@ -38,13 +38,13 @@ Mengakses kartu hasil studi (KHS)
 
 # 📁 Export Data
 
-Excel (.xlsx)
+* **Excel (.xlsx)**
 
-Rekap nilai mahasiswa per kelas / mata kuliah
+* **Rekap nilai mahasiswa per kelas / mata kuliah**
 
-PDF (.pdf)
+* **PDF (.pdf)**
 
-Kartu Hasil Studi (KHS) mahasiswa
+* **Kartu Hasil Studi (KHS) mahasiswa**
 
 # 🧩 Struktur Data Utama
 
@@ -92,19 +92,17 @@ score
 
 # 🛠️ Teknologi yang Digunakan
 
-(Sesuaikan dengan stack yang kamu pakai)
-
 Backend
 
 Node.js / Laravel / Django
 
-REST API
+* **REST API**
 
 Authentication menggunakan Cookies
 
 Database: MySQL / PostgreSQL
 
-Frontend
+* **Frontend**
 
 React / Vue / Blade / HTML-CSS-JS
 
@@ -112,7 +110,7 @@ Axios / Fetch API
 
 Responsive UI
 
-Export
+* **Export**
 
 Excel: xlsx / exceljs
 
@@ -126,8 +124,8 @@ PDF: pdfkit / dompdf
 
 * **Dosen mengelola nilai mahasiswa**
 
-Mahasiswa melihat nilai & KHS
+* **Mahasiswa melihat nilai & KHS**
 
-Admin mengelola data master
+* **Admin mengelola data master**
 
-Data dapat diexport ke Excel & PDF
+* **Data dapat diexport ke Excel & PDF**
